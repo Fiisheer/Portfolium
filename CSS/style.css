@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #222;
+    line-height: 1.2;
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+
+a {
+    font-family: 'Arial', sans-serif;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+blockquote {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #666;
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
