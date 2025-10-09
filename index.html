@@ -2,9 +2,9 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tabela de Armas</title>
-<link rel="stylesheet" href="/CSS/styles.css">
+  <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
   <div class="wrap">
@@ -12,7 +12,9 @@
       <div class="title-header">
         <h1>Ferramentas Vermelhas</h1>
         <div class="icon-title">
-          <img src="https://cdn.wikimg.net/en/hkwiki/images/9/9d/Red_Tools_Heading.png" alt="" style="width: 160px;">
+          <img src="https://cdn.wikimg.net/en/hkwiki/images/9/9d/Red_Tools_Heading.png" 
+               alt="" 
+               style="width: 160px;">
         </div>
       </div>
     </header>
@@ -26,46 +28,233 @@
             <th data-type="number">Dano</th>
             <th data-type="number">Usos Totais</th>
             <th data-type="number">Dano Total</th>
-            <th data-type="number">Custo por Uso</th>
+            <th data-type="number">
+              Custo por Uso
+              <img class="icon-cost" 
+                   src="https://cdn.wikimg.net/en/hkwiki/images/thumb/5/56/Shell_Shards.png/20px-Shell_Shards.png" 
+                   alt="(Fragmentos)">
+            </th>
             <th data-type="number">Custo por Dano</th>
             <th data-type="stars">Dificuldade</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="value"><img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/0/03/Straight_Pin.png/72px-Straight_Pin.png" alt="">Pino Reto</td>
-            <td class="rank-td"><span class="rank rank-b" title="Rank B">B</span></td>
-            <td class="value damage">18</td>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/0/03/Straight_Pin.png/72px-Straight_Pin.png" 
+                   alt="Pino Reto">
+              Pino Reto
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-s" title="Rank S">S</span>
+            </td>
+            <td><div class="value damage">18</div></td>
             <td class="value">21</td>
             <td class="value">378</td>
             <td class="value">3</td>
             <td class="value">6</td>
             <td class="stars-td"><div class="stars filled-1"></div></td>
           </tr>
+
           <tr>
-            <td class="value"><img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/b/b1/Threefold_Pin.png/72px-Threefold_Pin.png" alt="">Pino Triplo</td>
-            <td class="rank-td"><span class="rank rank-a" title="Rank A">A</span></td>
-            <td class="value">25</td>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/b/b1/Threefold_Pin.png/72px-Threefold_Pin.png" 
+                   alt="Pino Triplo">
+              Pino Triplo
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-a" title="Rank A">A</span>
+            </td>
+            <td>
+              <div class="value">25</div>
+              <div class="calc">(14 + 7 + 4)</div>
+            </td>
             <td class="value">17</td>
             <td class="value">425</td>
             <td class="value">4</td>
-            <td class="value">6.25</td>
+            <td class="value">6,25</td>
             <td class="stars-td"><div class="stars filled-2"></div></td>
           </tr>
+
           <tr>
-            <td class="value"><img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/0/0d/Rosary_Cannon.png/72px-Rosary_Cannon.png" alt="">Canhão de Rosarios</td>
-            <td class="rank-td"><span class="rank rank-s" title="Rank S">S</span></td>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/c/cb/Longpin.png/72px-Longpin.png" 
+                   alt="Pino Longo">
+              Pino Longo
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-b" title="Rank B">B</span>
+            </td>
+            <td><div class="value">17</div></td>
+            <td class="value">20</td>
+            <td class="value">340</td>
+            <td class="value">4</td>
+            <td class="value">4,25</td>
+            <td class="stars-td"><div class="stars filled-3"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/e/ef/Tacks.png/67px-Tacks.png" 
+                   alt="Tachinhas">
+              Tachinhas
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-c" title="Rank C">C</span>
+            </td>
+            <td>
+              <div class="value">56</div>
+              <div class="calc">(8 * 7)</div>
+            </td>
+            <td class="value">8</td>
+            <td class="value">448</td>
+            <td class="value">8</td>
             <td class="value">7</td>
+            <td class="stars-td"><div class="stars filled-1"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/8/85/Delver%27s_Drill.png/70px-Delver%27s_Drill.png" 
+                   alt="Broca do Cavador">
+              Broca do Cavador
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-d" title="Rank D">D</span>
+            </td>
+            <td>
+              <div class="value">84</div>
+              <div class="calc">(6 * 14)</div>
+            </td>
+            <td class="value">15</td>
+            <td class="value">1260</td>
+            <td class="value">4</td>
+            <td class="value">21</td>
+            <td class="stars-td"><div class="stars filled-5"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/b/ba/Cogfly.png/72px-Cogfly.png" 
+                   alt="Mosca Mecânica">
+              Mosca Mecânica
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-e" title="Rank E">E</span>
+            </td>
+            <td>
+              <div class="value">50</div>
+              <div class="calc">(5 * 10)</div>
+            </td>
+            <td class="value">7</td>
+            <td class="value">350</td>
+            <td class="value">10</td>
+            <td class="value">5</td>
+            <td class="stars-td"><div class="stars filled-1"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/b/b3/Silkshot.png/72px-Silkshot.png" 
+                   alt="Tiro de Seda">
+              Tiro de Seda
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-e" title="Rank E">E</span>
+            </td>
+            <td><div class="value">34</div></td>
+            <td class="value">14</td>
+            <td class="value">476</td>
+            <td class="value">5</td>
+            <td class="value">7,2</td>
+            <td class="stars-td"><div class="stars filled-1"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/2/20/Curveclaw.png/71px-Curveclaw.png" 
+                   alt="Curvagarra">
+              Curvagarra
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-e" title="Rank E">E</span>
+            </td>
+            <td>
+              <div class="value">20</div>
+              <div class="calc">(10 + 10)</div>
+            </td>
+            <td class="value">14</td>
+            <td class="value">280</td>
+            <td class="value">5</td>
+            <td class="value">4</td>
+            <td class="stars-td"><div class="stars filled-2"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/6/69/Sting_Shard.png/72px-Sting_Shard.png" 
+                   alt="Fragmento de Ferrão">
+              Fragmento de Ferrão
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-e" title="Rank E">E</span>
+            </td>
+            <td>
+              <div class="value">35</div>
+              <div class="calc">(5 * 7)</div>
+            </td>
+            <td class="value">10</td>
+            <td class="value">350</td>
+            <td class="value">7</td>
+            <td class="value">5</td>
+            <td class="stars-td"><div class="stars filled-3"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/6/69/Sting_Shard.png/72px-Sting_Shard.png" 
+                   alt="Fragmento de Ferrão à distância">
+              Fragmento de Ferrão <span class="calc">à distância</span>
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-e" title="Rank E">E</span>
+            </td>
+            <td>
+              <div class="value">70</div>
+              <div class="calc">(5 * 14)</div>
+            </td>
+            <td class="value">10</td>
+            <td class="value">700</td>
+            <td class="value">7</td>
+            <td class="value">10</td>
+            <td class="stars-td"><div class="stars filled-5"></div></td>
+          </tr>
+
+          <tr>
+            <td class="value">
+              <img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/0/0d/Rosary_Cannon.png/72px-Rosary_Cannon.png" 
+                   alt="Canhão de Rosarios">
+              Canhão de Rosarios
+            </td>
+            <td class="rank-td">
+              <span class="rank rank-e" title="Rank E">E</span>
+            </td>
+            <td><div class="value">3/7</div></td>
             <td class="value">80</td>
-            <td class="value">560</td>
-            <td class="value">1</td>
-            <td class="value">7</td>
+            <td class="value">240/560</td>
+            <td class="value">
+              <div class="rosary-value">
+                1 <img class="icon-cost" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/f/fa/Rosaries.png/20px-Rosaries.png" alt="Rosario">
+              </div>
+            </td>
+            <td class="value">3/7</td>
             <td class="stars-td"><div class="stars filled-4"></div></td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
-<script src="/js/script.js"></script>
+
+  <script src="/assets/script.js"></script>
 </body>
 </html>
