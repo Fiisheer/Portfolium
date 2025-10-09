@@ -1,23 +1,71 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tabela de Armas</title>
+<link rel="stylesheet" href="/css/styles.css">
 </head>
-
 <body>
+  <div class="wrap">
     <header>
-        <h1>Bem-vindo à minha página</h1>
+      <div class="title-header">
+        <h1>Ferramentas Vermelhas</h1>
+        <div class="icon-title">
+          <img src="https://cdn.wikimg.net/en/hkwiki/images/9/9d/Red_Tools_Heading.png" alt="" style="width: 160px;">
+        </div>
+      </div>
     </header>
-    <main>
-        <p>Este é o conteúdo principal da página.</p>
-    </main>
-    <footer>
-        <p>© 2024 Todos os direitos reservados.</p>
-    </footer>
-</body>
 
+    <div class="table-wrap">
+      <table id="tabela-armas">
+        <thead>
+          <tr>
+            <th data-type="text">Arma</th>
+            <th data-type="rank">Rank</th>
+            <th data-type="number">Dano</th>
+            <th data-type="number">Usos Totais</th>
+            <th data-type="number">Dano Total</th>
+            <th data-type="number">Custo por Uso</th>
+            <th data-type="number">Custo por Dano</th>
+            <th data-type="stars">Dificuldade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="value"><img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/0/03/Straight_Pin.png/72px-Straight_Pin.png" alt="">Pino Reto</td>
+            <td class="rank-td"><span class="rank rank-b" title="Rank B">B</span></td>
+            <td class="value damage">18</td>
+            <td class="value">21</td>
+            <td class="value">378</td>
+            <td class="value">3</td>
+            <td class="value">6</td>
+            <td class="stars-td"><div class="stars filled-1"></div></td>
+          </tr>
+          <tr>
+            <td class="value"><img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/b/b1/Threefold_Pin.png/72px-Threefold_Pin.png" alt="">Pino Triplo</td>
+            <td class="rank-td"><span class="rank rank-a" title="Rank A">A</span></td>
+            <td class="value">25</td>
+            <td class="value">17</td>
+            <td class="value">425</td>
+            <td class="value">4</td>
+            <td class="value">6.25</td>
+            <td class="stars-td"><div class="stars filled-2"></div></td>
+          </tr>
+          <tr>
+            <td class="value"><img class="icon" src="https://cdn.wikimg.net/en/hkwiki/images/thumb/0/0d/Rosary_Cannon.png/72px-Rosary_Cannon.png" alt="">Canhão de Rosarios</td>
+            <td class="rank-td"><span class="rank rank-s" title="Rank S">S</span></td>
+            <td class="value">7</td>
+            <td class="value">80</td>
+            <td class="value">560</td>
+            <td class="value">1</td>
+            <td class="value">7</td>
+            <td class="stars-td"><div class="stars filled-4"></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+<script src="/js/script.js"></script>
+</body>
 </html>
