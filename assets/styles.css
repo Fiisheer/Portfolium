@@ -21,7 +21,7 @@ html, body {
 
 @font-face {
   font-family: 'HollowHills';
-  src: url('/assets/HollowHills.ttf') format('truetype');
+  src: url('assets/HollowHills.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
